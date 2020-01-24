@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme|Amarante&display=swap');
+
+.navbar{
+  padding:25px;
+  font-family: 'Kaushan Script', cursive;
+  font-size:30px;
+}
+
+
+img{
+height:25vh;
+}
+.card:hover{
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+
+.col-md-3{
+
+  margin-bottom:10px;
+
+}
+
+p{
+  font-family: 'Acme', sans-serif;
+  font-size:25px;
+}
+
+h3{
+  font-family: 'Amarante', cursive;
+  font-size:35px;
+  color:#44180D ;
+}
+
+h1{
+  font-family: 'Amarante', cursive;
+  font-size:40px;
+  color:#44180D ;
+}
+

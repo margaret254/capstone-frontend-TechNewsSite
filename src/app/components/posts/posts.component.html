@@ -1,0 +1,22 @@
+<app-header></app-header>
+<h1 style="text-align: center;"> Welcome to TechNews Site</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3"  *ngFor="let post of posts">
+
+
+            <div class="card">
+              <div class="card-body"></div>
+              <div class="card-body"> <img src="{{post.new_image}}" alt="image1" class="card-img-top">
+                <div class="card-body"></div>
+              <div class="card-text"> <h3 class="card-title">{{post.title}}</h3>
+                <p class="card-text">
+                  {{post.desc}}
+                </p></div>
+              <div class="card-footer"><a href="{{post.new_link}}" class="btn btn-primary" target="_blank">Read...</a></div>
+            </div>
+    </div>
+
+
+  </div>
+</div>
