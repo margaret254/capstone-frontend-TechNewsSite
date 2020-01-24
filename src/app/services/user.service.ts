@@ -14,4 +14,8 @@ export class UserService {
   getPosts() {
     return this.http.get('http://127.0.0.1:8000/news/');
   }
+  newPost(post) {
+    console.log(post)
+    return this.http.post('http://127.0.0.1:8000/news/', post)
+  }
 }

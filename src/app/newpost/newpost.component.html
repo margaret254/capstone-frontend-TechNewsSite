@@ -1,0 +1,19 @@
+<app-header></app-header>
+
+<div class="container" style="margin-top: 5%;">
+  <div class="container card">
+      <h1 class="text-center">Post News</h1>
+      <label>Title </label>
+      <input [(ngModel)]="title" placeholder="title"><br>
+      <label>Description </label>
+      <input [(ngModel)]="desc" placeholder="description"><br>
+      <label>Link </label>
+      <input [(ngModel)]="new_link" placeholder="Link to Source"><br>
+      <label>News image: </label>
+      <input type='file' (change)="onSelectFile($event)"><br>
+      <button class="btn btn-sm btn-success" style="width: 10%;" (click)='createNewPost()'>Post</button>
+  </div>
+
+</div>
+
+<app-footer></app-footer>

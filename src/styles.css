@@ -42,3 +42,32 @@ h1{
   color:#44180D ;
 }
 
+input
+{
+  padding:20px;
+  margin-bottom:10px;
+  width:100%;
+  margin-top:4px;
+}
+
+
+.col-md-12{
+  margin-top: 150px;
+  border: 5px solid black;
+  font-family: 'Amarante', cursive;
+}
+
+.regb
+{
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.pf{
+  text-align: center;
+}
+
+.footer{
+  margin-top:100px;
+}
+
